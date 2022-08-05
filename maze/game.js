@@ -92,7 +92,7 @@ window.addEventListener("load", event=> {
         displayMaze();
         ctx_a.fillStyle = 'red';
         ctx.drawImage(img,width*30-60,height*30-60,30,30);
-        ctx_a.fillText("あ!",(zahyouX-1)*30,zahyouY*30);
+        ctx_a.fillText("●",(zahyouX-1)*30,zahyouY*30);
         if (zahyouX === width-1 && zahyouY ===height-1) {
             ctx.font ="bold 100px cursive";
             ctx.fillText("クリア！",170,200);
