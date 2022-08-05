@@ -1,0 +1,15 @@
+canvas {
+    position:absolute;
+    border: 1px solid black;
+}
+
+#goal {
+    position:absolute;
+    transform: translate(400,550);
+}
+
+#character {
+    color:red;
+    font-size: 50pt;
+    position:absolute;
+}
